@@ -94,21 +94,6 @@ namespace 有赞报表小工具
             file.ShowDialog();
             this.txtRef.Text = file.FileName;
         }
-
-        //private void Button8_Click(object sender, EventArgs e)
-        //{
-        //    OpenFileDialog file = new OpenFileDialog();
-        //    file.ShowDialog();
-        //    this.txtProductSrc.Text = file.FileName;
-        //}
-
-        //private void Button5_Click(object sender, EventArgs e)
-        //{
-        //    OpenFileDialog file = new OpenFileDialog();
-        //    file.ShowDialog();
-        //    this.txtProRefSrc.Text = file.FileName;
-        //}
-
         private void Button7_Click(object sender, EventArgs e)
         {
             txtResult.Text = "";
