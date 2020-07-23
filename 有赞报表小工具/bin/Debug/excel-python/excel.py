@@ -74,7 +74,7 @@ def main(infoSrc='C:\\Users\\tiantao\\Desktop\\报表\\账单明细.xlsx',infoLi
     for item in array:
         #print(item.infoList)
         if item.infoList==[]:
-            ws1.append([item.data["类型"],item.data["名称"],item.data["业务单号"],item.data["支付流水号"],item.data["关联单号"],item.data["交易来源地"],item.data["账务主体"],item.data["账户"],item.data["收入(元)"],item.data["支出(元)"],item.data["余额(元)"],item.data["支付方式"],item.data["交易对手"],item.data["渠道"],item.data["下单时间"],item.data["入账时间"],item.data["操作人"],item.data["附加信息"],item.data["备注"],"订单配送方式","运费","数据丢失","数据丢失","数据丢失","数据丢失","数据丢失","数据丢失"])
+            ws1.append([item.data["类型"],item.data["名称"],item.data["业务单号"],item.data["支付流水号"],item.data["关联单号"],item.data["交易来源地"],item.data["账务主体"],item.data["账户"],item.data["收入(元)"],item.data["支出(元)"],item.data["余额(元)"],item.data["支付方式"],item.data["交易对手"],item.data["渠道"],item.data["下单时间"],item.data["入账时间"],item.data["操作人"],item.data["附加信息"],item.data["备注"],item.data["订单配送方式"],item.data["运费"],"数据丢失","数据丢失","数据丢失","数据丢失","数据丢失","数据丢失"])
         else:
             for i in range(0,len(item.infoList)):
                 if i==0:

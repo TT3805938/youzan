@@ -8,3 +8,13 @@ C:\Users\tiantao\source\repos\有赞报表小工具\有赞报表小工具\obj\De
 C:\Users\tiantao\source\repos\有赞报表小工具\有赞报表小工具\obj\Debug\有赞报表小工具.exe
 C:\Users\tiantao\source\repos\有赞报表小工具\有赞报表小工具\obj\Debug\有赞报表小工具.pdb
 C:\Users\tiantao\source\repos\有赞报表小工具\有赞报表小工具\obj\Debug\有赞报表小工具.csprojAssemblyReference.cache
+F:\code_git\youzanReport\有赞报表小工具\bin\Debug\有赞报表小工具.exe.config
+F:\code_git\youzanReport\有赞报表小工具\bin\Debug\有赞报表小工具.exe
+F:\code_git\youzanReport\有赞报表小工具\bin\Debug\有赞报表小工具.pdb
+F:\code_git\youzanReport\有赞报表小工具\obj\Debug\有赞报表小工具.csprojAssemblyReference.cache
+F:\code_git\youzanReport\有赞报表小工具\obj\Debug\有赞报表小工具.Form1.resources
+F:\code_git\youzanReport\有赞报表小工具\obj\Debug\有赞报表小工具.Properties.Resources.resources
+F:\code_git\youzanReport\有赞报表小工具\obj\Debug\有赞报表小工具.csproj.GenerateResource.cache
+F:\code_git\youzanReport\有赞报表小工具\obj\Debug\有赞报表小工具.csproj.CoreCompileInputs.cache
+F:\code_git\youzanReport\有赞报表小工具\obj\Debug\有赞报表小工具.exe
+F:\code_git\youzanReport\有赞报表小工具\obj\Debug\有赞报表小工具.pdb
