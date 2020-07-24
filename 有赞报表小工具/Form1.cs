@@ -47,6 +47,8 @@ namespace 有赞报表小工具
             if (string.IsNullOrEmpty(path1) || string.IsNullOrEmpty(path2) || string.IsNullOrEmpty(path3) || string.IsNullOrEmpty(path4)) { MessageBox.Show("参数非法!");return; }
             RunPythonScript("excel-python\\excel.py","",new string[] {path1,path2, path3,path4 });
             txtResult.Text = resultTxt;
+            BLL.StaticInfo.Log(resultTxt);//保存日志
+
         }
         //调用python核心代码
         public static void RunPythonScript(string sArgName, string args = "", params string[] teps)
@@ -85,6 +87,7 @@ namespace 有赞报表小工具
         public static void AppendText(string text)
         {
             Console.WriteLine(text);//此处在控制台输出.py文件print的结果
+            
             resultTxt += text;
         }
 
